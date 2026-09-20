@@ -1,0 +1,9 @@
+{
+  "name": "chattify-root",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "npm install --prefix chattify/backend && npm install --prefix chattify/frontend && npm run build --prefix chattify/frontend",
+    "start": "node chattify/backend/src/server.js"
+  }
+}
